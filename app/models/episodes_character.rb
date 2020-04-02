@@ -1,0 +1,2 @@
+class EpisodesCharacter < ApplicationRecord
+end

@@ -1,3 +1,3 @@
 class Character < ApplicationRecord
-  belongs_to :episode
+  has_and_belongs_to_many :episodes
 end
