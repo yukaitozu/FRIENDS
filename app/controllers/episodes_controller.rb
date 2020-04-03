@@ -1,4 +1,4 @@
-class EpisodeController < ApplicationController
+class EpisodesController < ApplicationController
    def index
     @episodes = Episode.all
   end
@@ -32,7 +32,4 @@ class EpisodeController < ApplicationController
   def episode_params
     params.require(:episode).permit(:name, :photo)
   end
-end
-
-
 end

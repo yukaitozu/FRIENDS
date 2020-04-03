@@ -1,4 +1,4 @@
-class CharacterController < ApplicationController
+class CharactersController < ApplicationController
   def new
     @episode = Episode.find(params[:episode_id])
     @character = Character.new
