@@ -2,6 +2,8 @@
   <h1>F.R.I.E.N.D.S Episodes</h1>
   <%= link_to "Add New Episode", new_episode_path, class: "btn btn-primary" %>
   <div class="cards">
-    <%#= link_to episode.title, episode_path(episode) %>
+    <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
+      <p><%= link_to episode.title, episode_path(episode) %></p>
+    </div>
   </div>
 </div>
