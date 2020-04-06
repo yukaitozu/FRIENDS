@@ -2,7 +2,7 @@
   <h1>F.R.I.E.N.D.S Episodes</h1>
   <%= link_to "Add New Episode", new_episode_path, class: "btn btn-primary" %>
   <div class="cards">
-    <% @episodes.each do |cocktail| %>
+    <% @episodes.each do |episode| %>
       <% @path = episode.photo.key %>
       <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url( <%= cl_image_path @path, height: 400, width: 400, crop: :fill %> )">
         <p><%= link_to episode.title, episode_path(episode) %></p>
