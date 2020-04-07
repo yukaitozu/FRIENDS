@@ -2,3 +2,15 @@
 h1 {
   text-align: center;
 }
+
+body {
+  background-color: white;
+}
+
+.img-logo {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: 25%;
+  transform: translate(-50%, -50%);
+}
