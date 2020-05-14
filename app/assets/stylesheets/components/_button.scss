@@ -1,5 +1,16 @@
 .btn-new-episode {
-  position: absolute;
-  top: 30%;
-  left: 42%;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #ADA2E0;
+  transition: background 0.3s ease;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-new-episode:hover {
+  background: #8577c6;
+  color: white;
 }
