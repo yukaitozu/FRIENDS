@@ -31,7 +31,9 @@
 </div>
 
 <div class="container">
-  <div class="button_cont" align="center"><a class="btn-new-episode" href="add-website-here" target="_blank" rel="nofollow noopener">Add New Episode</a></div>
+  <div class="button_cont" align="center">
+    <%= link_to "Add New Episode", new_episode_path, class: "btn-new-episode" %>
+  </div>
   <div class="cards">
     <% @episodes.each do |episode| %>
       <% @path = episode.photo.key %>
