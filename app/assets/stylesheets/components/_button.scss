@@ -35,3 +35,24 @@
   border-color: #f6b93b !important;
   transition: all 0.4s ease 0s;
 }
+
+.btn-add{
+  color: #494949 !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffffff;
+  padding: 20px;
+  border: 3px solid #494949 !important;
+  border-radius: 4px;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+  margin-bottom: 32px;
+}
+
+.btn-add:hover {
+  color: #ffffff !important;
+  text-decoration: none;
+  background: #f6b93b;
+  border-color: #f6b93b !important;
+  transition: all 0.4s ease 0s;
+}
